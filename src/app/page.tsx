@@ -4,6 +4,7 @@ import { Team } from '@/components/sections/team';
 import { About } from '@/components/sections/about';
 import { Contact } from '@/components/sections/contact';
 import { OrgChart } from '@/components/sections/org-chart';
+import { Faq } from '@/components/sections/faq';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Projects />
       <Team />
+      <Faq />
       <OrgChart />
       <Contact />
     </>
