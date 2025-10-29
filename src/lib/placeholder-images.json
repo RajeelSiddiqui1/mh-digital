@@ -25,6 +25,24 @@
       "imageHint": "ecommerce store"
     },
     {
+      "id": "project-ecommerce",
+      "description": "An e-commerce store with a clean layout.",
+      "imageUrl": "https://images.unsplash.com/photo-1656543802898-41c8c46683a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlY29tbWVyY2UlMjBjbGVhbnxlbnwwfHx8fDE3NjE3NzgxMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce clean"
+    },
+    {
+      "id": "project-ai-home",
+      "description": "Smart home interface on a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWFydCUyMGhvbWV8ZW58MHx8fHwxNzYxNzU4NzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart home"
+    },
+    {
+      "id": "project-fitness-app",
+      "description": "A fitness app displayed on a smartphone.",
+      "imageUrl": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmaXRuZXNzJTIwYXBwfGVufDB8fHx8MTc2MTczMDcxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fitness app"
+    },
+    {
       "id": "team-ali",
       "description": "Profile picture of Ali Farhan.",
       "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjE3NTYzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
