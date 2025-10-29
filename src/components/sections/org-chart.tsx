@@ -26,10 +26,15 @@ type Member = {
   image: string;
 };
 
-const MemberCard = ({ member, id }: { member: Member; id: string }) => {
+const MemberCard = ({ member, id }: { member: Member; id:string }) => {
   const cardVariants = {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1 },
+    hidden: { opacity: 0, scale: 0.8, y: 20 },
+    visible: { 
+      opacity: 1, 
+      scale: 1, 
+      y: 0,
+      transition: { type: "spring", stiffness: 100, damping: 15 }
+    },
   };
 
   return (
@@ -38,36 +43,42 @@ const MemberCard = ({ member, id }: { member: Member; id: string }) => {
       variants={cardVariants}
       className="flex flex-col items-center text-center"
     >
-      <div className="relative w-32 h-32 md:w-40 md:h-40 mb-4 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-primary/50 rounded-full">
+      <motion.div 
+        whileHover={{ scale: 1.05 }}
+        transition={{ type: "spring", stiffness: 300 }}
+        className="relative w-32 h-32 md:w-40 md:h-40 mb-4 rounded-full"
+      >
         <Image
           src={imageMap[member.image]?.imageUrl || ""}
           alt={`Photo of ${member.name}`}
           fill
-          className="object-cover rounded-full border-4 border-background dark:border-slate-800"
+          className="object-cover rounded-full border-4 border-background dark:border-slate-800 shadow-lg"
           data-ai-hint={imageMap[member.image]?.imageHint}
         />
-      </div>
+        <div className="absolute inset-0 rounded-full transition-all duration-300 ease-in-out ring-primary/70 ring-offset-4 ring-offset-background dark:ring-offset-slate-900 opacity-0 group-hover:opacity-100 group-hover:ring-2" />
+      </motion.div>
       <h3 className="font-bold text-lg">{member.name}</h3>
-      <p className="text-primary text-sm">{member.role}</p>
+      <p className="text-primary text-sm font-medium">{member.role}</p>
     </motion.div>
   );
 };
 
 export function OrgChart() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
     // Ensure the component is mounted on the client before rendering lines
-    setIsMounted(true);
+    const timer = setTimeout(() => setIsMounted(true), 500); // Small delay to allow layout to settle
+    return () => clearTimeout(timer);
   }, []);
 
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.2,
+        staggerChildren: 0.15,
       },
     },
   };
@@ -85,7 +96,7 @@ export function OrgChart() {
         <motion.div
           ref={ref}
           id="org-chart-container"
-          className="relative"
+          className="relative group"
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
