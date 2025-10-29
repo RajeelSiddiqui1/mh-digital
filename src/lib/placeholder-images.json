@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "A modern web application interface shown on a laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2ViJTIwYXBwbGljYXRpb258ZW58MHx8fHwxNzYxNzEwNTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web application"
+    },
+    {
+      "id": "project-2",
+      "description": "A mobile application for finance tracking.",
+      "imageUrl": "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2JpbGUlMjBmaW5hbmNlfGVufDB8fHx8MTc2MTcyNDE4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile finance"
+    },
+    {
+      "id": "project-3",
+      "description": "An AI-powered data visualization dashboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1635183607544-bf69187cc310?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaSUyMGRhc2hib2FyZHxlbnwwfHx8fDE3NjE3Nzc0Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai dashboard"
+    },
+    {
+      "id": "project-4",
+      "description": "An e-commerce platform showcasing products.",
+      "imageUrl": "https://images.unsplash.com/photo-1688561807440-8a57dfa77ee3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxlY29tbWVyY2UlMjBzdG9yZXxlbnwwfHx8fDE3NjE3Nzc0Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce store"
+    },
+    {
+      "id": "team-ali",
+      "description": "Profile picture of Ali Farhan.",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjE3NTYzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "team-rajeel",
+      "description": "Profile picture of Rajeel Siddiqui.",
+      "imageUrl": "https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjE3MDYwMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait professional"
+    },
+    {
+      "id": "team-frontend",
+      "description": "Profile picture of the Frontend Developer.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MTY5NjE0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-backend",
+      "description": "Profile picture of the Backend Developer.",
+      "imageUrl": "https://images.unsplash.com/photo-1633367583895-08545d733dfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MTY4MDkxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "team-mobile",
+      "description": "Profile picture of the Mobile App Developer.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496527892-904f897eb744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjE2OTEyODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman professional"
+    },
+    {
+      "id": "team-ai",
+      "description": "Profile picture of the AI Specialist.",
+      "imageUrl": "https://images.unsplash.com/photo-1715418554358-d34e420b18ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBnbGFzc2VzfGVufDB8fHx8MTc2MTcxNzA5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man glasses"
+    },
+    {
+      "id": "team-uiux",
+      "description": "Profile picture of the UI/UX Designer.",
+      "imageUrl": "https://images.unsplash.com/photo-1692736475357-7c18bfbb808b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MTY3NTczNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "team-qa",
+      "description": "Profile picture of the QA Engineer.",
+      "imageUrl": "https://images.unsplash.com/photo-1579389083395-4507e98b5e67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjB0ZWNofGVufDB8fHx8MTc2MTcwOTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man tech"
+    }
+  ]
 }
