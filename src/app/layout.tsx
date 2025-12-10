@@ -22,21 +22,21 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans antialiased`}>
-        <ClientOnly>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <ClientOnly>
             <div className="flex min-h-screen flex-col">
               <Header />
               <main className="flex-1">{children}</main>
               <Footer />
             </div>
             <Toaster />
-          </ThemeProvider>
-        </ClientOnly>
+          </ClientOnly>
+        </ThemeProvider>
       </body>
     </html>
   );
